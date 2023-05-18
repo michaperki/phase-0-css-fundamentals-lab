@@ -1,5 +1,34 @@
 body {
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin: 0%;
+  text-align: center;
 }
+
+nav a {
+  background-color: grey;
+  padding: 10px;
+}
+
+section#featured-property {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section#featured-property p {
+  width: 800px;
+  margin-top: 5px;
+}
+
+section#featured-property figcaption {
+  font-size: .85em;
+}
+
+section#details div {
+  float: left; 
+  width: 25%;
+  background-color: red;
+}
+
+
